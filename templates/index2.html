@@ -1,0 +1,196 @@
+<!DOCTYPE HTML>
+<!--
+	Horizons by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Gaiety</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		{% load static %} 
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="{% static 'css/skel.css'%}">
+		<link rel="stylesheet" href="{% static 'css/style.css'%}">
+
+		<script src= "{% static 'js/jquery.min.js' %}" ></script>
+		<script src= "{% static 'js/jquery.dropotron.min.js' %}" ></script>
+		<script src= "{% static 'js/skel.min.js' %}" ></script>
+		<script src= "{% static 'js/skel-layers.min.js' %}" ></script>
+		<script src= "{% static 'js/init.js' %}" ></script>		
+
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+	</head>
+	<body class="homepage">
+
+		<!-- Header -->
+			<div id="header">
+				<div class="container">
+						
+					<!-- Logo -->
+						<h1><a href="#" id="logo">Gaiety</a></h1>
+
+						
+					
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+		
+								<li>
+									<ul>
+										<li><a href="#">Lorem ipsum dolor</a></li>
+										<li><a href="#">Magna phasellus</a></li>
+										<li><a href="#">Etiam dolore nisl</a></li>
+										<li>
+											<a href="">Phasellus consequat</a>
+											<ul>
+												<li><a href="#">Lorem ipsum dolor</a></li>
+												<li><a href="#">Phasellus consequat</a></li>
+												<li><a href="#">Magna phasellus</a></li>
+												<li><a href="#">Etiam dolore nisl</a></li>
+												<li><a href="#">Veroeros feugiat</a></li>
+											</ul>
+										</li>
+										<li><a href="#">Veroeros feugiat</a></li>
+									</ul>
+								</li>
+							</ul>
+						</nav>
+
+
+					<!-- Banner -->
+						<div id="banner">
+							<div class="container">
+								<section>
+									<header class="major">
+										<h2>Welcome to Gaiety!</h2>
+										<img src= "{% static 'img/happy.jpg' %}" alt="image 2" width="400" height="400">
+						<img src= "{% static 'img/happy2.jpg' %}" alt="image 2" width="400" height="400">
+						<img src= "{% static 'img/happy3.jpg' %}" alt="image 2" width="400" height="400">
+										<span class="byline">Want to detect whether your face is happy or dull ? &ndash; Just give us a click !!!</span>
+									</header>
+									<form method="post" action="{% url 'outputeda' %}">
+										{% csrf_token %}
+										<button class="button alt">Click here</button>
+								</form>
+
+								</section>			
+							</div>
+						</div>
+
+				</div>
+			</div>
+
+		<!-- Featured -->
+			<div class="wrapper style2">
+				<section class="container">
+					<header class="major">
+						<h2>Don't know how to use ?</h2>
+					</header>
+					<div class="row no-collapse-1">
+						<section class="4u">
+							<p style="font-size:20px;" >Click the Gaiety button</p>
+						</section>
+						<section class="4u">
+							<p style="font-size:20px;"  >Your web cam will be turned on automatically</p>
+						</section>
+						<section class="4u">
+							<p style="font-size:20px;"  >Check whether your face is happy or not</p>
+						</section>
+	
+					</div>
+				</section>
+
+
+				<a href="https://github.com/Sanjay-Nandakumar/Gaiety" target="_blank" ><button class="button alt">Proceed to github for installation</button></a>
+
+			</div>
+
+		<!-- Main -->
+			<div id="main" class="wrapper style1">
+				<section class="container">
+					<header class="major">
+						<h3>Follow my works here...</h3>
+					</header>
+					<div class="row">
+					
+						<!-- Content -->
+							<div class="6u">
+								<section>
+									<ul class="style">
+											<a href="https://www.quora.com/profile/Sanjay-Kumar-563" data-lightbox="image"  target="_blank" ><img src= "{% static 'img/quora.png' %}" alt="image 1" width="100" height="100"></a>
+									
+				
+											<h3>Quora</h3>
+									
+								            <br> <br> <br>
+												<a href="https://mathfables.blogspot.com/" data-lightbox="image"  target="_blank" ><img src="{% static 'img/Blogger.png' %}" alt="image 3" width="200" height="100"></a>
+											<h3>Math fables</h3>
+											
+									
+									</ul>
+								</section>
+							</div>
+							<div class="6u">
+								<section>
+									<ul class="style">
+									
+												<a href="https://medium.com/@sanjayjsw05" data-lightbox="image"  target="_blank" ><img src= "{% static 'img/medium.png' %}" alt="image 2" width="200" height="100"></a>
+											<h3>Medium</h3>
+											
+											<br> <br> <br>
+												<a href="https://www.linkedin.com/in/sanjay-nandakumar-8278229b/" data-lightbox="image"  target="_blank" ><img src="{% static 'img/linkedin.png' %}" alt="image 3" width="100" height="100"></a>
+											<h3>LinkedIn</h3>
+											
+										</li>
+									</ul>
+								</section>
+							</div>
+
+					</div>
+				</section>
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+				<div class="container">
+
+					<!-- Lists -->
+						<div class="row">
+							<div class="8u">
+								<section>
+									<header class="major">
+										<h2>Hey there !</h2>
+										<br>
+										<span class="byline" style="font-size:20px;">
+												I’m Sanjay.
+												<br>This is a simple deep learning - django integrated web application created for learning purpose. </span>
+									</header>
+									<div class="row">
+										<section class="8u">
+												<h2>Who am I ?</h2> 
+												<div style="font-size:20px;">
+												I am a passionate engineer working in the domain of machine learning and deep learning. I am also a blogger and regularly drop some lines related to tech and maths. 
+										</div></section>
+									
+										<section class="8u">
+												<br><br><br>
+												<h2>Professional career</h2>
+												<div style="font-size:20px;">
+												I received my bachelor’s degree in computer science engineering from Karpagam Institute of Technology (Coimbatore, India) on 2018. Later I worked for Ducen Infotek as a machine learning engineer till 2020 where I was mainly responsible for creating and maintaining machine learning scripts for various business use cases. I am currently doing my post graduation in machine learning from Great lakes Institute of Management (Chennai, India).
+										</div></section>
+									</div>
+
+									
+								</section>
+							</div>
+
+				</div>
+			</div>
+
+	</body>
+</html>
