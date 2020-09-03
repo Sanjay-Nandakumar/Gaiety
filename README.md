@@ -1,5 +1,5 @@
 # Gaiety
-**Gaiety is a computer vision project done for learning purpose of happiness detection by capturing the visuals of human face in real time. The front end is built using Django and the back end has been fed with various deep learning libraries such as OpenCV, Keras, and Pygame.** 
+**Gaiety is a computer vision project done for learning the purpose of happiness detection by capturing the visuals of the human face in real-time. The front end is built using Django and the back end has been fed with various deep learning libraries such as OpenCV, Keras, and Pygame.** 
 
 
 [![Capture.png](https://i.postimg.cc/1X9HM3xg/Capture.png)](https://postimg.cc/HchXkHkH)
